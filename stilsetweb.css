@@ -1,0 +1,102 @@
+body {
+    background-image: url("bakgrunn1.jpg");
+}
+
+div#maincontainer{
+	width: 1000px;
+	margin: 0 auto;
+
+	
+	
+}
+
+header{
+	font-family: 'Fjalla One', sans-serif;
+	color: #cccccc;
+}
+
+
+h1 {
+
+	text-align: center;
+
+
+}
+
+h2 {
+	
+	text-align: center;
+	
+}
+
+article{
+	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	color: #cccccc;
+	margin-top: 50px;
+}
+
+
+
+p{
+	margin: 0 auto;
+	
+}
+
+/*nav bar*/
+
+nav{
+	width: 100%;
+	background-color: black;
+
+}
+
+nav ul {
+		list-style:none;
+		
+		
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 160px;
+	
+}
+
+nav ul li a{
+	font-size: 16pt;
+	line-height: 44px;
+	color: #cccccc;
+	text-decoration: none;
+	
+}
+
+/*Drop down menu*/
+
+nav ul li ul{
+
+	display: none;
+	position: absolute;
+
+}
+
+nav ul li:hover ul{
+	display: block;
+	background: #444444;
+	border: 1px solid #cccccc;
+	margin-top: -6px;
+	margin-left: 5px
+}
+
+nav ul li ul li{
+	display: block;
+	
+}
+
+footer{
+	height: 30px;
+	background-color: grey;
+	margin-top: 100px;
+	
+	
+}
